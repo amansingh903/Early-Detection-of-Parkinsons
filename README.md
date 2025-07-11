@@ -1,10 +1,10 @@
-# 🧠 ML Classification Project
+# ML Classification Project
 
 This repository contains a comparative study of several machine learning models for a classification task. Our goal was to evaluate model performance and identify the most effective classifiers for the dataset provided.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project explores and compares various machine learning classifiers including:
 
@@ -17,20 +17,20 @@ Each model is trained, evaluated, and visualized through confusion matrices and 
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
-- ✅ **Neural Network (MLP)** and **SVM** achieved the **highest accuracy** across multiple runs.
-- 📉 Performance of other models was slightly lower but competitive depending on hyperparameters and feature selection.
-- 📌 Confusion matrices for **each classifier** are provided in the Jupyter notebook for visual comparison of predictions.
+-  **Neural Network (MLP)** and **SVM** achieved the **highest accuracy** across multiple runs.
+-  Performance of other models was slightly lower but competitive depending on hyperparameters and feature selection.
+-  Confusion matrices for **each classifier** are provided in the Jupyter notebook for visual comparison of predictions.
 
 ---
 
 
-## ⚙️ Customization Guide
+## Customization Guide
 
 You can tailor this project to your own dataset or experiment setup.
 
-### 🔧 1. Add/Remove Features
+### 1. Add/Remove Features
 
 Modify the feature list in the notebook to include only the relevant columns:
 
@@ -64,7 +64,7 @@ grid = GridSearchCV(SVC(), param_grid, cv=5)
 grid.fit(X_train, y_train)
 ```
 
-### 🧠 4. Use Ensemble Methods
+### 4. Use Ensemble Methods
 
 Combine multiple models for stronger performance:
 
@@ -81,16 +81,16 @@ ensemble.fit(X_train, y_train)
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
-> 📌 *Insert a brief description of your dataset here.*  
+> *Insert a brief description of your dataset here.*  
 > Example:  
 > The dataset contains features extracted from [source], with a target variable representing [class/label].  
 > Ensure your data is preprocessed and cleaned before model training.
 
 ---
 
-## 📚 References
+## References
 
 - [scikit-learn documentation](https://scikit-learn.org/)
 - [XGBoost documentation](https://xgboost.readthedocs.io/)
@@ -99,14 +99,14 @@ ensemble.fit(X_train, y_train)
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).  
 Feel free to use, modify, and share with attribution.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to:
 
@@ -116,6 +116,6 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ---
 
-## 💬 Questions or Feedback?
+## Questions or Feedback?
 
 If you have any questions or suggestions, feel free to reach out via GitHub issues or discussions.
