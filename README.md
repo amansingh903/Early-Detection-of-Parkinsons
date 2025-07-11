@@ -1,6 +1,6 @@
 # ML Classification Project
 
-This repository contains a comparative study of several machine learning models for a classification task. Our goal was to evaluate model performance and identify the most effective classifiers for the dataset provided.
+This repository contains a comparative study of several machine learning models for a classification task. Our goal was to evaluate model performance and identify the most effective classifiers for the detection of Parkinson's Disease using detection of jitter and slurring in voice samples.
 
 ---
 
